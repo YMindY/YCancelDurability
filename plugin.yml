@@ -1,0 +1,8 @@
+name: YCancelDurability
+api:
+- 1.0.0
+- 2.0.0
+version: '1.0.0_alpha'
+load: POSTWORLD
+main: yxmingy\canceldurability\Main
+author: xMing
