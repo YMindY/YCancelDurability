@@ -12,19 +12,19 @@ trait Starter
   {
     return self::$instance;
   }
-  public static function info(string $message):void
+  public static function info(string $message)
   {
     Server::getInstance()->getLogger()->info($message);
   }
-  public static function notice(string $message):void
+  public static function notice(string $message)
   {
     Server::getInstance()->getLogger()->notice($message);
   }
-  public static function warning(string $message):void
+  public static function warning(string $message)
   {
     Server::getInstance()->getLogger()->warning($message);
   }
-  public static function error(string $message):void
+  public static function error(string $message)
   {
     Server::getInstance()->getLogger()->error($message);
   }
